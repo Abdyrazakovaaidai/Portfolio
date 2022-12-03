@@ -1,0 +1,95 @@
+.header {
+  width: 20%;
+  height: 680px;
+  max-width: 200px;
+  float: left;
+  margin-right: 2%;
+  border-right: 1px solid rgb(22, 71, 76);
+
+  background-color: #002366;
+  z-index: 1;
+  position: fixed;
+  overflow: auto;
+  padding: 4% 1% 0% 3%;
+  left: 0;
+  top: 0;
+}
+
+.top {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-top: 10px;
+}
+ion-icon {
+  font-size: 50px;
+}
+h2 {
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 5px;
+}
+h1 {
+  color: orangered;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  letter-spacing: 5px;
+  text-shadow: 10px 10px 26px rgb(70, 70, 209);
+}
+.top {
+  transition: transform 0.2s;
+  max-width: 180px;
+  height: 40px;
+  cursor: pointer;
+}
+.top:hover {
+  transform: scale(1.2);
+}
+.top a {
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  position: relative;
+  max-width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding-top: 20px;
+}
+.dete1 {
+  margin-left: 25%;
+  margin-top: 15%;
+  color: #ffff;
+  font-weight: bold;
+}
+.dete1 h1 {
+  font-size: 50px;
+
+  margin-bottom: 20px;
+}
+span {
+  color: #00ffbf;
+}
+.dete1 p {
+  color: #ffff;
+  font-size: 30px;
+}
+
+.link {
+  max-width: 100px;
+  height: 20px;
+
+  font-weight: bold;
+  background: orange;
+  border-radius: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+.link a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}

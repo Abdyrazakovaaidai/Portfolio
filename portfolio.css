@@ -1,0 +1,90 @@
+body {
+  background-image: url(https://media.tenor.com/TfvGPFbvDnkAAAAd/blue-kiss.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1400px;
+  height: 2100px;
+
+  position: relative;
+}
+.header {
+  width: 20%;
+  height: 680px;
+  max-width: 200px;
+  float: left;
+  margin-right: 2%;
+  border-right: 1px solid rgb(22, 71, 76);
+
+  background-color: #002366;
+  z-index: 1;
+  position: fixed;
+  overflow: auto;
+  padding: 4% 1% 0% 3%;
+  left: 0;
+  top: 0;
+}
+.top {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-top: 10px;
+}
+ion-icon {
+  font-size: 50px;
+}
+h2 {
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 5px;
+}
+h1 {
+  color: orangered;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  letter-spacing: 5px;
+  text-shadow: 10px 10px 26px rgb(70, 70, 209);
+}
+.top {
+  transition: transform 0.2s;
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+}
+.top:hover {
+  transform: scale(1.2);
+}
+.top a {
+  color: white;
+  text-decoration: none;
+}
+.port {
+  text-align: center;
+  margin-bottom: 40px;
+
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 4px;
+  color: orangered;
+}
+.project {
+  display: inline-block;
+
+  flex-wrap: wrap;
+  margin-left: 240px;
+  padding: 50px;
+  justify-content: center;
+  gap: 30px;
+}
+.content {
+  margin: 0 10px;
+}
+.photo {
+  max-width: 400px;
+  height: 550px;
+
+  margin: 35px 35px;
+  border-radius: 10px;
+
+  box-shadow: 4px 4px 16px white;
+}
